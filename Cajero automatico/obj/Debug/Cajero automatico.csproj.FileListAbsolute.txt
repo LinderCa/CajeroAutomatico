@@ -1,0 +1,40 @@
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\Cajero automatico.exe.config
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\Cajero automatico.exe
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\Cajero automatico.pdb
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.AssemblyReference.cache
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.SuggestedBindingRedirects.cache
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.Properties.Resources.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.GenerateResource.cache
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.CoreCompileInputs.cache
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.exe
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.pdb
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmCuentaBancaria.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmPrincipal.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmRecargarCajero.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmRetiro.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmCliente.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\itextsharp.dll
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\itextsharp.xml
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.CopyComplete
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmDepositoSinCuenta.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmDepositoConCuenta.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmOperacionesRealizadas.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\SpreadsheetLight.dll
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\System.Drawing.Common.dll
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\System.IO.Packaging.dll
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\SpreadsheetLight.xml
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\bin\Debug\System.IO.Packaging.xml
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmVerMiSaldo.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmIniciarSesion.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmIniciarSesionAdministrador.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmListaDepositoConCuenta.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmListaDepositosSinCuenta.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmListaRetiros.resources
+C:\Users\JoseLuis\Desktop\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero_automatico.FrmMisRetiros.resources
+D:\UNIVERSIDAD\Ciclo 2022-II\PROGRAMACION III\CajeroAutomatico-Grupo04\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.AssemblyReference.cache
+D:\UNIVERSIDAD\Ciclo 2022-II\PROGRAMACION III\CajeroAutomatico-Grupo04\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.csproj.SuggestedBindingRedirects.cache
+D:\UNIVERSIDAD\Ciclo 2022-II\PROGRAMACION III\CajeroAutomatico-Grupo04\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.exe
+D:\UNIVERSIDAD\Ciclo 2022-II\PROGRAMACION III\CajeroAutomatico-Grupo04\Cajero automatico\Cajero automatico\Cajero automatico\obj\Debug\Cajero automatico.pdb

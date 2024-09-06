@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96EEE240-3175-4360-B440-F1791A5A8626}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cajero_automatico</RootNamespace>
+    <AssemblyName>Cajero automatico</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.11.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.11.3\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.5.0.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpreadsheetLight.3.5.0\lib\netstandard2.0\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.5.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.7.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrador.cs" />
+    <Compile Include="Cajero.cs" />
+    <Compile Include="CuentaBancaria.cs" />
+    <Compile Include="DepositoConCuenta.cs" />
+    <Compile Include="DepositoSinCuenta.cs" />
+    <Compile Include="DineroDolares.cs" />
+    <Compile Include="DineroSoles.cs" />
+    <Compile Include="FrmCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCuenta.Designer.cs">
+      <DependentUpon>FrmCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepositoConCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepositoConCuenta.Designer.cs">
+      <DependentUpon>FrmDepositoConCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepositoSinCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepositoSinCuenta.Designer.cs">
+      <DependentUpon>FrmDepositoSinCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIniciarSesion.Designer.cs">
+      <DependentUpon>FrmIniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIniciarSesionAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIniciarSesionAdministrador.Designer.cs">
+      <DependentUpon>FrmIniciarSesionAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaDepositoConCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaDepositoConCuenta.Designer.cs">
+      <DependentUpon>FrmListaDepositoConCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaDepositosSinCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaDepositosSinCuenta.Designer.cs">
+      <DependentUpon>FrmListaDepositosSinCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaRetiros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaRetiros.Designer.cs">
+      <DependentUpon>FrmListaRetiros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMisRetiros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMisRetiros.Designer.cs">
+      <DependentUpon>FrmMisRetiros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerMiSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerMiSaldo.Designer.cs">
+      <DependentUpon>FrmVerMiSaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecargarCajero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecargarCajero.Designer.cs">
+      <DependentUpon>FrmRecargarCajero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRetiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRetiro.Designer.cs">
+      <DependentUpon>FrmRetiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCliente.Designer.cs">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MisOperaciones.cs" />
+    <Compile Include="Operacion.cs" />
+    <Compile Include="FrmOperacionesRealizadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOperacionesRealizadas.Designer.cs">
+      <DependentUpon>FrmOperacionesRealizadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionRealizada.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retiro.cs" />
+    <Compile Include="Cliente.cs" />
+    <EmbeddedResource Include="FrmCuenta.resx">
+      <DependentUpon>FrmCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepositoConCuenta.resx">
+      <DependentUpon>FrmDepositoConCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepositoSinCuenta.resx">
+      <DependentUpon>FrmDepositoSinCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIniciarSesion.resx">
+      <DependentUpon>FrmIniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIniciarSesionAdministrador.resx">
+      <DependentUpon>FrmIniciarSesionAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaDepositoConCuenta.resx">
+      <DependentUpon>FrmListaDepositoConCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaDepositosSinCuenta.resx">
+      <DependentUpon>FrmListaDepositosSinCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaRetiros.resx">
+      <DependentUpon>FrmListaRetiros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMisRetiros.resx">
+      <DependentUpon>FrmMisRetiros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerMiSaldo.resx">
+      <DependentUpon>FrmVerMiSaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOperacionesRealizadas.resx">
+      <DependentUpon>FrmOperacionesRealizadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecargarCajero.resx">
+      <DependentUpon>FrmRecargarCajero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRetiro.resx">
+      <DependentUpon>FrmRetiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCliente.resx">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
